@@ -1,0 +1,107 @@
+/* div,h1{
+   border-color: red;
+   border-style: solid;
+   border-width: 1px;
+} */
+.logo{
+    height: 90px;
+}
+
+.btn {
+    color: black;
+}
+
+i {
+    padding: 1px;
+}
+
+body {
+    background: linear-gradient(180deg, #834107 10%, #05380e 100%);
+}
+
+label,
+form>h1,
+footer,
+.item1,
+.navbar-brand {
+    color: white;
+}
+
+
+td,
+th {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+/** grid para o título/h1 do home.html */
+.grid-container-home {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container-home-header {
+    grid-column: 2 / 9;
+    text-align: center;
+}
+
+.grid-container-editar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/** Remove o underline dos <a>*/
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .hidden {
+        display: none;
+    }
+}
